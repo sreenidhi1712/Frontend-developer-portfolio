@@ -45,13 +45,13 @@ function Mywork() {
                                 </div>
                             </div>
                             <div className={styles.ProjectName}>
-                                    Hostel Management System
+                            News-wings
                             </div>
                             <div className={styles.Description}>
                             <p>A Web Application Designed for automating the hostel room allocation </p>
                             </div>
                             <div className={styles.ButtonContainer}>
-                                <button className={styles.Button}><a href='https://github.com/sreenidhi1712/Chanakya-AI.git' className={styles.projlinks}>View Project</a></button>
+                                <button className={styles.Button}><a href='https://github.com/sreenidhi1712/News-wings.git' className={styles.projlinks}>View Project</a></button>
                                 <button className={styles.Button}>View Code</button>
                             </div>
                         </div>
