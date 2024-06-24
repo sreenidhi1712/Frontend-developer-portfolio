@@ -34,7 +34,7 @@ function Mywork() {
                             <p>A Web Application for providing users with a seamless online shopping experience</p>
                             </div>
                             <div className={styles.ButtonContainer}>
-                                <button className={styles.Button}>View Project</button>
+                                <button className={styles.Button}><a href='https://github.com/sreenidhi1712/Vibhaa-Ecommerce-website.git' className={styles.projlinks}>View Project</a></button>
                                 <button className={styles.Button}>View Code</button>
                             </div>
                         </div>
@@ -51,7 +51,7 @@ function Mywork() {
                             <p>A Web Application Designed for automating the hostel room allocation </p>
                             </div>
                             <div className={styles.ButtonContainer}>
-                                <button className={styles.Button}>View Project</button>
+                                <button className={styles.Button}><a href='https://github.com/sreenidhi1712/Chanakya-AI.git' className={styles.projlinks}>View Project</a></button>
                                 <button className={styles.Button}>View Code</button>
                             </div>
                         </div>
