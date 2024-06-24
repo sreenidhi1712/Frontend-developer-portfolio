@@ -2,6 +2,7 @@ import React, {useEffect} from 'react'
 import styles from "./Mywork.module.css"
 // import { worksmade } from './work'
 import projectimage from './proj.jpg'
+import chanakya from './Chanakya.png'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 
@@ -57,7 +58,7 @@ function Mywork() {
                         <div className={styles.Cards} data-aos = "fade-up"  data-aos-delay="1000">
                             <div className={styles.ImageHolder}>
                             <div className={styles.Imagepositioner}>
-                                       <img src={projectimage} alt='projecimages' className={styles.ProjectImg}/>
+                                       <img src={chanakya} alt='projecimages' className={styles.ProjectImg}/>
                                 </div>
                             </div>
                             <div className={styles.ProjectName}>
@@ -67,7 +68,7 @@ function Mywork() {
                            <p> An AI-driven Web Application designed to provide users  content generation capabilities, similar to Google's Gemini</p>
                             </div>
                             <div className={styles.ButtonContainer} >
-                                <button className={styles.Button}>View Project</button>
+                                <button className={styles.Button}><a href='https://github.com/sreenidhi1712/Chanakya-AI.git' className={styles.projlinks}>View Project</a></button>
                                 <button className={styles.Button}>View Code</button>
                             </div>
                             
