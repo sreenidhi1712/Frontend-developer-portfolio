@@ -9,9 +9,14 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 function Contactme() {
+
   useEffect(()=>{
     AOS.init({duration:2000});
   },[])
+
+  const handleLinks = (links)=>{
+    window.location.href = links
+  }
   return (
     <div className={styles.Contactcontainer}>
              <div className={styles.ContactTitle}>
@@ -35,8 +40,8 @@ function Contactme() {
              </div>
 
              <div className={styles.SocialMedia}  >
-                <FaLinkedin  size='40' className={styles.LinkedinIcon}/>
-                            <FaGithub  size='40' className={styles.GithubIcon}/>
+                <FaLinkedin  size='40' className={styles.LinkedinIcon} onClick={()=>handleLinks('https://www.linkedin.com/in/sreenidhi-d-b999a11b3/overlay/contact-info/')}/>
+                            <FaGithub  size='40' className={styles.GithubIcon} onClick={()=>handleLinks('https://www.linkedin.com/in/sreenidhi-d-b999a11b3/overlay/contact-info/')}/>
              </div>
 
     </div>
