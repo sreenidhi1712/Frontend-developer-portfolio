@@ -41,7 +41,7 @@ function Contactme() {
 
              <div className={styles.SocialMedia}  >
                 <FaLinkedin  size='40' className={styles.LinkedinIcon} onClick={()=>handleLinks('https://www.linkedin.com/in/sreenidhi-d-b999a11b3/overlay/contact-info/')}/>
-                            <FaGithub  size='40' className={styles.GithubIcon} onClick={()=>handleLinks('https://www.linkedin.com/in/sreenidhi-d-b999a11b3/overlay/contact-info/')}/>
+                            <FaGithub  size='40' className={styles.GithubIcon} onClick={()=>handleLinks('https://github.com/sreenidhi1712')}/>
              </div>
 
     </div>
