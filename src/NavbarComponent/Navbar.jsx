@@ -4,8 +4,10 @@ import { Link, animateScroll as scroll } from 'react-scroll';
 import { IoMdMenu } from "react-icons/io";
 import { MdCancel } from "react-icons/md";
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 function Navbar() {
+    const navigate = useNavigate()
   const [togglemenu, setTogglemneu] = useState(false)
   const handleToggle = () => {
       setTogglemneu(!togglemenu)
@@ -31,6 +33,9 @@ function Navbar() {
           
                     <Link to="contactme" smooth={true} duration={1000}>Contact me</Link>  
                 </p>
+                <p onClick={()=>navigate('/resume')}>
+                    Resume
+                </p>
 
                 <IoMdMenu className={styles.Menuicon} onClick={handleToggle} size='40'/>
           </div>
@@ -49,6 +54,9 @@ function Navbar() {
           </p>
           <p>
               <Link to="contactme" smooth={true} duration={1000}>Contact me</Link>  
+          </p>
+          <p onClick={()=>navigate('/resume')}>
+                    Resume
           </p>
       </div>
     </div>
