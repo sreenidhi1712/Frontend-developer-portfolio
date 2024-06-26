@@ -3,7 +3,7 @@
 
 
 .MainContainer{
-    height: 100vh;
+    height: 110vh;
     
     background-color: var(--secondary-color);
     display: flex;

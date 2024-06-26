@@ -1,22 +1,29 @@
 import './App.css';
 import React from 'react'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
-import Mainpage from './Mainpage';
-import Resume from './Resume/Resume';
+import About from './AboutComponent/About';
+import Skills from './SkillsComponent/Skills';
+import Mywork from './Mywork/Mywork';
+import Contactme from './ContactMeComponent/Contactme';
+import { Element } from 'react-scroll';
+import Navbar from './NavbarComponent/Navbar';
 
 function App() {
   return (
     <div className="App">
           
-        <Router>
-   <Routes>
-        <Route path="/" element={<Mainpage/>} />
-        <Route path="/resume" element={<Resume/>} />
-   </Routes>
-
-
-        </Router>
-      
+          <Navbar/>
+         <Element name="about" className="element" >
+        <About/>
+      </Element>
+         <Element name="skills" className="element" > 
+       <Skills/>
+      </Element>
+          <Element name="mywork" className="element" > 
+      <Mywork/>
+     </Element>
+          <Element name="contactme" className="element" >
+     <Contactme/>
+      </Element>
           
         
     </div>

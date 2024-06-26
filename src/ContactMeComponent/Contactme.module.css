@@ -10,6 +10,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  
 
 }
 
@@ -101,6 +102,24 @@ display: flex;
 .GithubIcon{
     margin-left: 2rem;
     cursor: pointer;
+}
+
+.downloadbbtncontainer{
+    border-radius: 5px;
+    height: 2rem;
+    width: 10rem;
+    background-color: var(--button-background-color);
+   
+    margin-top: 2rem;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.downloadresume{
+    color: var( --button-text-color);
+    text-decoration: none;
+   
 }
 
 @media screen and (max-width:1024px) {

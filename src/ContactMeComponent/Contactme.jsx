@@ -7,6 +7,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Pdf from '../assets/Sreenidhi D Frontend ReactJS Developer.pdf';
 
 function Contactme() {
 
@@ -15,7 +16,7 @@ function Contactme() {
   },[])
 
   const handleLinks = (links)=>{
-    window.location.href = links
+    window.open(links, '_blank');
   }
   return (
     <div className={styles.Contactcontainer}>
@@ -37,6 +38,9 @@ function Contactme() {
              <div className={styles.Address}>
                 <IoLocationOutline className={styles.LocatioMark} size='30'/>
                         <p className={styles.address}>U-129 1st main road, Srirampuram, Blore-21</p>
+             </div>
+             <div   className={styles.downloadbbtncontainer}>
+              <a className={styles.downloadresume} href={Pdf} download="../assets/Sreenidhi D Frontend ReactJS Developer.pdf">Download Resume</a>
              </div>
 
              <div className={styles.SocialMedia}  >

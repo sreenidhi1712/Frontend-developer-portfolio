@@ -7,7 +7,6 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 function Navbar() {
-    const navigate = useNavigate()
   const [togglemenu, setTogglemneu] = useState(false)
   const handleToggle = () => {
       setTogglemneu(!togglemenu)
@@ -33,10 +32,7 @@ function Navbar() {
           
                     <Link to="contactme" smooth={true} duration={1000}>Contact me</Link>  
                 </p>
-                <p onClick={()=>navigate('/resume')}>
-                    Resume
-                </p>
-
+               
                 <IoMdMenu className={styles.Menuicon} onClick={handleToggle} size='40'/>
           </div>
       </div>
