@@ -36,8 +36,8 @@ function Mywork() {
                             <p>A Web Application for providing users with a seamless online shopping experience</p>
                             </div>
                             <div className={styles.ButtonContainer}>
-                                <button className={styles.Button}><a href='https://github.com/sreenidhi1712/Vibhaa-Ecommerce-website.git' target="_blank" className={styles.projlinks}>View Project</a></button>
-                                <button className={styles.Button}>View Code</button>
+                                <button className={styles.Button}><a href='https://github.com/sreenidhi1712/Vibhaa-Ecommerce-website.git' target="_blank" className={styles.projlinks}>View code</a></button>
+                                <button className={styles.Button}>View Project</button>
                             </div>
                             </div>
                         </div>
@@ -55,8 +55,8 @@ function Mywork() {
                             <p> News-wings, a cutting-edge news app built with React and Tailwind CSS. Stay informed with real-time updates and a personalized news feed tailored just for you.</p>
                             </div>
                             <div className={styles.ButtonContainer}>
-                                <button className={styles.Button}><a href='https://github.com/sreenidhi1712/News-wings.git' target="_blank" className={styles.projlinks}>View Project</a></button>
-                                <button className={styles.Button}>View Code</button>
+                                <button className={styles.Button}><a href='https://github.com/sreenidhi1712/News-wings.git' target="_blank" className={styles.projlinks}>View Code</a></button>
+                                <button className={styles.Button}>View Project</button>
                             </div>
                             </div>
                         </div>
@@ -74,8 +74,8 @@ function Mywork() {
                            <p> An AI-driven Web Application designed to provide users  content generation capabilities, similar to Google's Gemini</p>
                             </div>
                             <div className={styles.ButtonContainer} >
-                                <button className={styles.Button}><a href='https://github.com/sreenidhi1712/Chanakya-AI.git' target="_blank" className={styles.projlinks}>View Project</a></button>
-                                <button className={styles.Button}>View Code</button>
+                                <button className={styles.Button}><a href='https://github.com/sreenidhi1712/Chanakya-AI.git' target="_blank" className={styles.projlinks}>View Code</a></button>
+                                <button className={styles.Button}>View Project</button>
                             </div>
                             </div>
                         </div>
