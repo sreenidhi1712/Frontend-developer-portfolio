@@ -1,11 +1,11 @@
 import React, {useEffect} from 'react'
 import styles from "./Mywork.module.css"
 // import { worksmade } from './work'
-import projectimage from './proj.jpg'
 import chanakya from './Chanakya.png'
 import  Newswing from './Newswing.png' 
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
+import vibhaa from "./vibhaa.png"
 
 function Mywork() {
 
@@ -24,7 +24,7 @@ function Mywork() {
                         <div className={styles.Cards} data-aos = "fade-up">
                             <div className={styles.ImageHolder}>
                                 <div className={styles.Imagepositioner}>
-                                       <img src={projectimage} alt='projecimages' className={styles.ProjectImg}/>
+                                       <img src={vibhaa} alt='projecimages' className={styles.ProjectImg}/>
                                 </div>
                                         
                             </div>
