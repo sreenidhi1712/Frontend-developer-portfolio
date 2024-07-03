@@ -7,7 +7,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import Pdf from '../assets/Sreenidhi D Frontend ReactJS Developer.pdf';
+import Pdf from './Sreenidhi D Frontend ReactJS Developer (1).pdf';
 
 function Contactme() {
 
