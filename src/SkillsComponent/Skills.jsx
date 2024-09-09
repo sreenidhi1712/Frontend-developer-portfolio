@@ -32,6 +32,10 @@ function Skills() {
                       <p>MONGODB</p>
             </div>
             <div className={Styles.Cards}>
+                    <RiTailwindCssFill className={Styles.skillsIcon}  title="Tailwind-css" size="4rem"/>
+                    <p>TAILWIND CSS</p>
+                </div>
+            <div className={Styles.Cards}>
                     <SiRedux className={Styles.skillsIcon}  title="Redux" size="4rem"/>
                     <p>REDUX</p>
                 </div>
@@ -39,11 +43,6 @@ function Skills() {
                     <SiMui className={Styles.skillsIcon}  title="Material-ui" size="4rem"/>
                     <p>MATERIAL-UI</p>
                 </div>
-                <div className={Styles.Cards}>
-                    <RiTailwindCssFill className={Styles.skillsIcon}  title="Tailwind-css" size="4rem"/>
-                    <p>TAILWIND CSS</p>
-                </div>
-
                 <div className={Styles.Cards}>
                   <FaBootstrap  className={Styles.skillsIcon}  title="Bootstrap" size="4rem"/>
                   <p>BOOTSTRAP</p>
