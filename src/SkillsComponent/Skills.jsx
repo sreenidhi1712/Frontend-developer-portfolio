@@ -6,6 +6,7 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import { SiMongodb } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
 import { FaNode } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 
 function Skills() {
   return (
@@ -52,7 +53,7 @@ function Skills() {
                     <p>GIT</p>
                   </div>
                   <div className={Styles.Cards}>
-                    <FaGitAlt className={Styles.skillsIcon}   title="Git"  size="4rem" />
+                    <FaGithub className={Styles.skillsIcon}   title="Git"  size="4rem" />
                     <p>GITHUB</p>
                   </div>
                
