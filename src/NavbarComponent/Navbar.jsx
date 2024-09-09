@@ -4,13 +4,16 @@ import { Link, animateScroll as scroll } from 'react-scroll';
 import { IoMdMenu } from "react-icons/io";
 import { MdCancel } from "react-icons/md";
 import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import Pdf from '../ContactMeComponent/Sreenidhi D Frontend ReactJS Developer (1).pdf';
+
 
 function Navbar() {
   const [togglemenu, setTogglemneu] = useState(false)
   const handleToggle = () => {
       setTogglemneu(!togglemenu)
   }
+
+  
   return (
     <div className={styles.NavbarContainer}>
       <div className={styles.NavbarPart}>
@@ -50,10 +53,10 @@ function Navbar() {
           </p>
           <p>
               <Link to="contactme" smooth={true} duration={1000}>Contact me</Link>  
-          </p>
-          <p onClick={()=>navigate('/resume')}>
-                    Resume
-          </p>
+          </p>    
+          <p>
+          <a  style={{textDecoration:"none",color:"inherit"}} href={Pdf} download="../assets/Sreenidhi D Frontend ReactJS Developer.pdf">Download Resume</a>
+            </p>   
       </div>
     </div>
   )

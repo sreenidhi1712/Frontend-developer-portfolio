@@ -3,6 +3,9 @@ import Styles from './Skills.module.css'
 import { FaReact, FaBootstrap, FaGitAlt, FaHtml5, FaCss3Alt, FaJs } from 'react-icons/fa';
 import { SiRedux ,SiMui } from 'react-icons/si';
 import { RiTailwindCssFill } from "react-icons/ri";
+import { SiMongodb } from "react-icons/si";
+import { SiExpress } from "react-icons/si";
+import { FaNode } from "react-icons/fa";
 
 function Skills() {
   return (
@@ -13,8 +16,24 @@ function Skills() {
               <div className={Styles.CardContainerLibraries}>
               <div className={Styles.Cards}>
                       <FaReact className={Styles.skillsIcon}  title="React" size="4rem"/>
-                      <p>ReactJS</p>
+                      <p>REACTJS</p>
             </div>
+            <div className={Styles.Cards}>
+                      <FaNode className={Styles.skillsIcon}  title="React" size="4rem"/>
+                      <p>NODEJS</p>
+            </div>
+            <div className={Styles.Cards}>
+                      <SiExpress className={Styles.skillsIcon}  title="React" size="4rem"/>
+                      <p>EXPRESSJS</p>
+            </div>
+            <div className={Styles.Cards}>
+                      <SiMongodb className={Styles.skillsIcon}  title="React" size="4rem"/>
+                      <p>MONGODB</p>
+            </div>
+            <div className={Styles.Cards}>
+                    <SiRedux className={Styles.skillsIcon}  title="Redux" size="4rem"/>
+                    <p>REDUX</p>
+                </div>
                 <div className={Styles.Cards}>
                     <SiMui className={Styles.skillsIcon}  title="Material-ui" size="4rem"/>
                     <p>MATERIAL-UI</p>
@@ -32,10 +51,11 @@ function Skills() {
                     <FaGitAlt className={Styles.skillsIcon}   title="Git"  size="4rem" />
                     <p>GIT</p>
                   </div>
-                <div className={Styles.Cards}>
-                    <SiRedux className={Styles.skillsIcon}  title="Redux" size="4rem"/>
-                    <p>REDUX</p>
-                </div>
+                  <div className={Styles.Cards}>
+                    <FaGitAlt className={Styles.skillsIcon}   title="Git"  size="4rem" />
+                    <p>GITHUB</p>
+                  </div>
+               
 
                 <div className={Styles.Cards}>
                         <FaHtml5 className={Styles.skillsIcon}  title="HTML5" size="4rem"/>

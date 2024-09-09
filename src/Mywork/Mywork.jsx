@@ -6,6 +6,7 @@ import  Newswing from './Newswing.png'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import vibhaa from "./vibhaa.png"
+import DailyMart from "./DailyMart.png"
 
 function Mywork() {
 
@@ -78,6 +79,27 @@ function Mywork() {
                             <div className={styles.ButtonContainer} >
                                <a href='https://github.com/sreenidhi1712/Chanakya-AI.git' target="_blank" className={styles.Button}>View Code</a>
                                <a href='https://effervescent-cranachan-d112bd.netlify.app' target="_blank" className={styles.Button}>View Project</a>
+                            </div>
+                            </div>
+                        </div>
+
+                        <div className={styles.Cards} data-aos = "fade-up" >
+                            <div className={styles.ImageHolder}>
+                                <div className={styles.Imagepositioner}>
+                                       <img src={DailyMart} alt='projecimages' className={styles.ProjectImg}/>
+                                </div>
+                                        
+                            </div>
+                            <div className={styles.ContentContainer}>
+                            <div className={styles.ProjectNameContainer}>
+                            <p className={styles.ProjectName}>Daily Mart - Grocery shopping Website</p>
+                            </div>
+                            <div className={styles.Description}>
+                            <p>A responsive MERN stack web application designed to offer users a seamless and efficient daily grocery shopping experience.</p>
+                            </div>
+                            <div className={styles.ButtonContainer}>
+                               <a href='https://github.com/sreenidhi1712/Daily-Mart-MERN-Stack-project.git' target="_blank" className={styles.Button}>View code</a>
+                               <a href='https://66de8e31b00b1bd01fd31e53--kaleidoscopic-raindrop-f847b8.netlify.app/' target="_blank" className={styles.Button}>View Project</a>
                             </div>
                             </div>
                         </div>
