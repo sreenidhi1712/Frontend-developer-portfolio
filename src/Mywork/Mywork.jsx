@@ -99,11 +99,11 @@ function Mywork() {
                             </div>
                             <div className={styles.ButtonContainer}>
                                <a href='https://github.com/sreenidhi1712/Daily-Mart-MERN-Stack-project.git' target="_blank" className={styles.Button}>View code</a>
-                               <a href='https://66de8e31b00b1bd01fd31e53--kaleidoscopic-raindrop-f847b8.netlify.app/' target="_blank" className={styles.Button}>View Project</a>
+                               <a href='https://kaleidoscopic-raindrop-f847b8.netlify.app/' target="_blank" className={styles.Button}>View Project</a>
                             </div>
                             </div>
                         </div>
-                  
+                        
                 </div>
 
 </div>
